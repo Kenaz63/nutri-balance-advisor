@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,17 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// HealthyYou Custom Colors
+				'health-green': {
+					light: '#81C784',
+					DEFAULT: '#4CAF50',
+					dark: '#388E3C'
+				},
+				'health-blue': {
+					light: '#64B5F6',
+					DEFAULT: '#2196F3',
+					dark: '#1976D2'
 				}
 			},
 			borderRadius: {
